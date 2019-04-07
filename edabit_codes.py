@@ -20,3 +20,23 @@ def missing_angle(angle1, angle2):
 		return "right"
 	else:
 		return "obtuse"
+
+	
+"""
+Create a function that takes a number as an argument and returns the amount of digits it has.
+
+Examples
+find_digit_amount(123) ➞ 3
+
+find_digit_amount(56) ➞ 2
+
+find_digit_amount(7154) ➞ 4
+
+find_digit_amount(61217311514) ➞ 11
+
+find_digit_amount(0) ➞ 1
+"""
+def find_digit_amount(num):
+  string = str(num)
+  length = len(string)
+  return length
