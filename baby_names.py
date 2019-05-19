@@ -1,6 +1,7 @@
 #BRR
 #MSAW
 
+
 import random, string
 
 
@@ -33,7 +34,7 @@ def gen_erator():
     letter1=(random.choice(others)).upper()
 
   else:
-    letter1=inp_letter1
+    letter1=inp_letter1.upper()
 
 
   if inp_letter2=="1":
