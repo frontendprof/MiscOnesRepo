@@ -1,16 +1,17 @@
 #BRR
 #MSAW
 
+# This program generates 5 letter random names in a specific range for your pet.
 
 import random, string
 
 
 
-inp_letter1=input('''
+inp_letter1=input('''Let's find 5 letter pet name for you: 
+
                         "1" for vowel 
                         "2" for constonant 
                         "3" for any letter
-
     First letter ------->    ''')
 inp_letter2=input('Second letter ----->  ')
 inp_letter3=input('Third letter ----->  ')
