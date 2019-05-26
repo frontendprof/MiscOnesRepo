@@ -60,7 +60,10 @@ indexOfCaps("sUn") ➞ [1]
 
 """
 
-
+5)
+# Find the odd integer.
+# Create a function that takes a list and finds the integer which appears an odd number of times.
+# find_odd([1, 1, 2, -2, 5, 2, 4, 4, -1, -2, 5]) ➞ -1
 
 
 
@@ -121,4 +124,13 @@ for i in word:
       result.append(word.index(i))
 return result
 """
+
+
+5)
+"""
+def find_odd(lst):
+  for num in lst:
+    if lst.count(num) % 2:
+      return num
+ """
 
