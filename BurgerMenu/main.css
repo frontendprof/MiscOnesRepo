@@ -1,0 +1,50 @@
+
+body{
+    background: skyblue;
+}
+
+#menu{
+    margin:60px;
+    width:110px;
+    height:45px;
+    cursor: pointer;
+}
+
+.bar{
+    width: 100%;
+    height: 10px;
+    background:blueviolet;
+    display: block;
+    border-radius: 5px;
+    transition: all .4s ease;
+
+}
+
+#bar-1{
+    transform: translateY(-10px);
+}
+
+#bar-3{
+    transform: translateY(10px);
+}
+
+
+.change .bar{
+    background: white;
+}
+
+.change #bar-1{
+    transform: translateY(10px) rotate(-45deg);
+}
+
+
+.change #bar-3{
+    transform: translateY(-10px) rotate(45deg);
+}
+
+.change #bar-2{
+    opacity: 0;
+}
+
+
+
